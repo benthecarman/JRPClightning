@@ -61,6 +61,17 @@ implementation("io.github.clightning4j:jrpclightning:0.2.1")
 implementation 'io.github.clightning4j:jrpclightning:0.2.1'
 ```
 
+
+#### sbt
+
+```sbt
+libraryDependencies += "io.github.clightning4j" % "jrpclightning" % "0.2.1"
+```
+
+```groovy
+implementation 'io.github.clightning4j:jrpclightning:0.2.1'
+```
+
 ### Snapshot version
 
 Each master version has a SNAPSHOT version that is the official version `x.x.x + 1`, so for example for the version `v0.1.9`
